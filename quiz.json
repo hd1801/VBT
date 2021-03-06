@@ -1,0 +1,16 @@
+{
+    "ques":[
+        "Syntax Error in Python is detected by _______ at _____",
+        "which is the special symbol used in python to add comments",
+        "The format function,  when applied on strings returns:"
+    ],
+
+    "options":[
+        ["compiler/compile time","interpretor/run time","compiler/runtime","interpretor/compile time"],
+        ["$","#","/","&"],
+        ["list","str","bool","int"]
+    ],
+    "ans":[
+        2,4,2
+    ]
+}
