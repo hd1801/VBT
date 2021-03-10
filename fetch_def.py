@@ -1,4 +1,5 @@
 #Search for meaning of a word and fetches it online.
+from datetime import date
 import requests
 from bs4 import BeautifulSoup
 
@@ -29,4 +30,8 @@ def get_WoD():
     soup = BeautifulSoup(page.content, 'html.parser')
     word=soup.find(class_='otd-item-headword__word')
     #defination=soup.find(class_='otd-item-headword__pos')
-    return word.text
+    w=word.text
+    w=w.strip("\n")
+    return w
+    
+    
