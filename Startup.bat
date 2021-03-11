@@ -1,3 +1,3 @@
 cd C:\Users\hardi\Documents\VO
-python StartupNotifiy.py
+python StartupNotify.pyw
 exit
